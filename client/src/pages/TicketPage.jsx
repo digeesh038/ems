@@ -43,7 +43,6 @@ export default function TicketPage() {
         <div>
           <Link to='/'>
             <button 
-                // onClick={handleBackClick}
                 className='
                 inline-flex 
                 mt-12
@@ -116,7 +115,6 @@ export default function TicketPage() {
             </div>
           </div>
           </div>
-        
          ))}
          </div>
   

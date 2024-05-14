@@ -78,6 +78,7 @@ app.post("/login", async (req, res) => {
     {
       email: userDoc.email,
       id: userDoc._id,
+      name: userDoc.name
     },
     jwtSecret,
     {},

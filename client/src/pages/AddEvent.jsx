@@ -136,7 +136,6 @@ export default function AddEvent() {
           <input
             type="file"
             name="image"
-            
             className=' rounded mt-2 pl-5 px-4 py-10 ring-sky-700 ring-2 h-8 border-none'
             onChange={handleImageUpload}
           />

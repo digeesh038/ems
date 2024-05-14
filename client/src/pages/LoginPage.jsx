@@ -56,7 +56,7 @@ export default function LoginPage() {
       <div className= "bg-white w-full sm:w-full md:w-1/2 lg:w-1/3 px-7 py-7 rounded-xl justify-center align-middle">
     
         <form className="flex flex-col w-auto items-center" onSubmit={loginUser}>
-            <h1 className='px-3 font-extrabold mb-5 text-primarydark text-2xl '>Sign In</h1>
+            <h1 className='px-3 font-extrabold mb-5 text-primarydark text-2xl '>Login</h1>
 
 
             <div className= "input">
@@ -104,18 +104,18 @@ export default function LoginPage() {
 
             
             <div className="w-full py-4">
-              <button type="submit" className="primary w-full"> Sign in </button>
+              <button type="submit" className="primary w-full"> Submit </button>
             </div>
 
             <div className="container2 ">
               <div className="w-full h-full p-1">
                 <Link to={'/login'}>
-                  <button type="submit" className="text-white cursor-pointer rounded w-full h-full bg-primary font-bold" > Sign In</button>
+                  <button type="submit" className="text-white cursor-pointer rounded w-full h-full bg-primary font-bold" > Login</button>
                 </Link>
               </div>
               <div className="w-full h-full p-1">
                 <Link to={'/register'}>
-                  <button type="submit" className="text-black cursor-pointer rounded w-full h-full font-bold" > Sign Up</button>
+                  <button type="submit" className="text-black cursor-pointer rounded w-full h-full font-bold" > Register</button>
                 </Link>
               </div>
             </div>
@@ -135,14 +135,14 @@ export default function LoginPage() {
    
     <div className= "hidden lg:flex flex-col right-box">
       <div className='flex flex-col -ml-96 gap-3'>
-        <div className='text-3xl font-black'>Welcome to</div>
-        <div>
+        {/* <div className='text-3xl font-black'>Welcome to</div> */}
+        {/* <div>
           <img src="../src/assets/logo.png" alt="" className="w-48"/>
-        </div>
+        </div> */}
       </div>
 
         <div className="-ml-48 w-80 mt-12">
-          <img src="../src/assets/signinpic.svg" alt="" className='w-full'/>
+          <img src="../src/assets/sign.png" alt="" className='w-full'/>
         </div>   
         
     </div>
